@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.header-left {
+  display: flex;
+  gap: 16px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252a31;
+}
+
+.header-right {
+  display: flex;
+  gap: 24px;
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.header-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+}

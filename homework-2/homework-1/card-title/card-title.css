@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  padding: 24px;
+  background-color: #E8EDF1;
+  /* ограничение по ширине чтобы в мобиле было норм*/
+  /* width: 686px; */
+  height: 320px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+h3 {
+  color: #252A31;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p {
+  /* Прозрачность: */
+  /* opacity: 0.1; */
+  background-color: #00a58f85;
+  color: #000000;
+  /* max чтобы текст не вылезал при сужении */
+  /* max-height: 228px; */
+  margin-top: 24px;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 14px;
+  /* отступ между строчками */
+  line-height: 25px;
+  /* Отступ между буквами */
+  letter-spacing: 1.8px;
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Высота в вью хайт, т.е. растягивается на 100% высоты страницы */
+  height: 100vh;
+  /* Вью виз, т.е. растягивается на 100% ширины страницы */
+  width: 20vw;
+}
+
+.flex-item {}

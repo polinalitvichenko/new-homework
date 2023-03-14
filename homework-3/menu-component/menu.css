@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+body {
+  background-color: gray;
+}
+
+.confirn {
+  padding: 10px 12px;
+  background-color: #FFFFFF;
+  max-width: 1440px;
+  max-height: 64px;
+  box-shadow: 0px 4px 8px rgba(79, 94, 113, 0.1), 0px 2px 4px rgba(79, 94, 113, 0.11), 0px 0px 2px rgba(79, 94, 113, 0.12);
+  display: flex;
+  gap: 24;
+  justify-content: space-between;
+
+}
+
+.left-panel p {
+  color: #252A31;
+  margin: 22px 0px;
+  text-align: center;
+}
+
+.left-panel {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  width: 696px;
+  height: 40px;
+}
+
+.left-panel img {
+  width: 80px;
+  height: 40px;
+  margin: 12px 0px;
+}
+
+.inside {
+  display: flex;
+}
+
+
+.new {
+  width: 42px;
+  height: 24px;
+  background: #DF7B00;
+  border-radius: 15px;
+  color: #FFFFFF;
+  margin: 22px 0px;
+  text-align: center;
+}
+
+.right-panel {
+  width: 696px;
+  height: 44px;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  margin: 22px 0px;
+  text-align: center;
+}
+
+.flag,
+.profile {
+  display: flex;
+  gap: 8px;
+}
+
+
+.flag img {
+  width: 24px;
+  height: 24px;
+}
+
+.menu {
+  height: 24px;
+  width: 24px;
+}
+
+.right-panel p {
+  color: #252A31;
+}
+
+.profile img {
+  width: 24px;
+  height: 24px;
+}
