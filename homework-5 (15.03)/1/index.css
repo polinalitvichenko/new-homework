@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+
+body {
+  max-width: 144rem;
+}
+
+.container {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-banner {
+  background: url(./img/sky.png);
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0rem 4rem;
+}
+
+.banner-information {
+  display: inline;
+  justify-content: end;
+  margin-top: 20%;
+
+}
+
+.banner-information-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+h2 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: rgb(234, 231, 231);
+  margin-bottom: 2rem;
+}
+
+p {
+  color: rgb(89, 83, 83);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.banner-information-button {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.banner-information-button__portfolio {
+  border: 0.25rem solid black;
+  border-radius: 10px;
+  background-image: none;
+  background: transparent;
+  background-color: transparent;
+  padding: 0rem 0.5rem;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.banner-information-button__video {
+  background: transparent;
+  background-color: transparent;
+  border: medium none;
+  width: 12rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.video__icon {
+  width: 5rem;
+  height: 5.3rem;
+}
+
+.avatar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@media screen(max-width: 1024px) {
+  html {
+    font-size: calc (100vw / 768px * 10);
+  }
+}
+
+@media screen (max-width: 768px) {
+  html {
+    font-size: calc (100vw / 500px * 10);
+  }
+}
+
+@media screen (max-width: 500px) {
+  html {
+    font-size: calc (100vw / 360px * 10);
+  }
+}
