@@ -1,0 +1,24 @@
+.footer-container {
+  width: 119rem;
+  border-top: .2rem solid var(--white-gray-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 5rem 0;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  gap: 7.3rem;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

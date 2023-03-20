@@ -1,0 +1,79 @@
+.head-container {
+  max-width: 119rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.head-left {
+  max-width: 59rem;
+  max-height: 53rem;
+  background-color: var(--white-gray-color);
+  border-radius: 12px;
+  padding: 5rem;
+}
+
+.head-left h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.4rem;
+  line-height: 5.7rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding-right: 6rem;
+  color: var(--black-color);
+}
+
+.head-left p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin-top: 3.2rem;
+  padding-right: 6rem;
+}
+
+.head-left button {
+  padding: 1.8rem 4rem;
+  background: var(--yellow-color);
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin-top: 16.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.head-left button:hover {
+  background: var(--yellow-button-hover);
+}
+
+.head-left button:active {
+  border: 1px solid var(--yellow-button-border);
+  background: var(--yellow-color);
+}
+
+.swiper {
+  width: 59rem;
+  height: 53rem;
+  border-radius: 12px;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  width: 59rem;
+  height: 53rem;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ' ';
+  color: var(--white-color);
+}

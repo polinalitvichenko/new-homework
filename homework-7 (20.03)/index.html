@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Тёплый пол</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO -->
+  <meta name="Author" content="Ogogo Academy" />
+  <meta name="description" content="E-Commerce Online Shop" />
+  <!-- Style -->
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="icon" href="./public/assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Swipe -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img class="header__img" src="./public/assets/images/logo-header.svg" alt="Тёплый пол">
+      <button class="header__btn">Заказать</button>
+    </div>
+  </header>
+  <main>
+    <section class="head-container">
+      <div class="head-left">
+        <h1>Приносим тепло в каждый дом</h1>
+        <p>Устанавливаем теплые полы в квартирах, офисах и загородных домах.</p>
+        <button>Рассчитать стоимость</button>
+
+      </div>
+      <div class="head-right">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./public/assets/images/slider1.png" alt="Пример 1"></div>
+            <div class="swiper-slide"><img src="./public/assets/images/slider2.png" alt="Пример 2"></div>
+            <div class="swiper-slide"><img src="./public/assets/images/slider3.png" alt="Пример 3"></div>
+            <div class="swiper-slide"><img src="./public/assets/images/slider4.png" alt="Пример 4"></div>
+            <div class="swiper-slide"><img src="./public/assets/images/slider5.png" alt="Пример 5"></div>
+          </div>
+          <!-- Buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="body-container">
+      <div class="body-left">
+        <h2>Наши преимущества</h2>
+      </div>
+      <div class="body-right">
+        <ul class="body-right-ul">
+          <li><img class="marker-img" src="./public/assets/images/marker.svg" alt="Маркировка">Надежные материалы</li>
+          <li><img class="marker-img" src="./public/assets/images/marker.svg" alt="Маркировка">Опытные монтажники</li>
+          <li><img class="marker-img" src="./public/assets/images/marker.svg" alt="Маркировка">Регулируемая температура
+            пола</li>
+          <li><img class="marker-img" src="./public/assets/images/marker.svg" alt="Маркировка">Защита от замыканий</li>
+          <li><img class="marker-img" src="./public/assets/images/marker.svg" alt="Маркировка">Гарантия до 10 лет</li>
+        </ul>
+      </div>
+    </section>
+    <section class="foot-container">
+      <div class="foot-left">
+        <h2>Рассчитайте стоимость</h2>
+        <div class="foot-left-input">
+          <div class="input-width">
+            <label for="input-width">Ширина помещения, м</label>
+            <input id="input-width" type="number">
+          </div>
+          <div class="input-height">
+            <label for="input-height">Длина помещения, м</label>
+            <input id="input-height" type="number">
+          </div>
+        </div>
+        <p class="rate">Тариф</p>
+        <div class="foot-radio-btn">
+          <input class="radio-icon" id="econom" type="radio" name="radio-btn">
+          <label for="econom">Эконом</label>
+          <input class="radio-icon" id="comfort" type="radio" name="radio-btn">
+          <label for="comfort">Комфорт</label>
+          <input class="radio-icon" id="premium" type="radio" name="radio-btn">
+          <label for="premium">Премиум</label>
+        </div>
+        <button class="left-btn__left">Рассчитать</button>
+      </div>
+      <div class="foot-right">
+        <div class="foot-right-background">
+          <div class="foot-right-total">
+            <div class="total-square">
+              <p class="total-left">Площадь</p>
+              <p class="total-right">35 кв м</p>
+            </div>
+            <div class="total-price">
+              <p class="total-left">Примерная стоимость</p>
+              <p class="total-right">42590 руб</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="/public/assets/images/logo-header.svg" alt="Logo">
+        <p class="footer__p">© Теплый пол, 2023</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-right-networks">
+          <a href="#"><img src="/public/assets/images/youtube-icon.svg" alt="Youtube"></a>
+          <a href="#"><img src="/public/assets/images/telegram-icon.svg" alt="Telegram"></a>
+        </div>
+        <div class="footer-right-contaсts">
+          <p class="phone"><img src="/public/assets/images/telephone-icon.svg" alt="phone">+7 858 849 73 80</p>
+          <p class="email"><img src="/public/assets/images/email-icon.svg" alt="email">Teplyipol@gmail.com</p>
+          <p class="designer">Designer: Anastasia Ilina</p>
+          <p class="developer">Developer: </p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>

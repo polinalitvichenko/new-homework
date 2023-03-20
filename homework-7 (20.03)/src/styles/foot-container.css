@@ -1,0 +1,178 @@
+.foot-container {
+  max-height: 53rem;
+  max-width: 119rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.foot-left {
+  background: var(--white-gray-color);
+  border-radius: 12px;
+  padding: 5rem;
+}
+
+.foot-left h2 {
+  font-weight: 500;
+  font-size: 4.4rem;
+  line-height: 5.7rem;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin: 0;
+}
+
+.foot-left-input {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+.input-width,
+.input-height {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-width label,
+.input-height label,
+.rate {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--dark-gray-color);
+}
+
+.input-width input,
+.input-height input {
+  background: var(--white-color);
+  border: 1px solid var(--light-gray-color);
+  border-radius: 12px;
+  width: 24rem;
+  height: 5.4rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.rate {
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.foot-right {
+  width: 59rem;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.foot-right-background {
+  width: 59rem;
+  height: 53rem;
+  background-image: url('/public/assets/images/foot-container-img.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.foot-right-total {
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  background-color: var(--white-color);
+  width: 25.5rem;
+  border-radius: 8px;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.total-square,
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-left {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--dark-gray-color);
+  margin: 0;
+}
+
+.total-right {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--black-color);
+  margin: 0;
+}
+
+.foot-radio-btn {
+  display: flex;
+  align-items: center;
+}
+
+.radio-icon {
+  display: none;
+}
+
+.foot-radio-btn label {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--black-color);
+  cursor: pointer;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.foot-radio-btn label::before {
+  content: "";
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url('/public/assets/images/radio-input.svg') no-repeat center center;
+  background-size: contain;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.foot-radio-btn input[type="radio"]:checked+label::before {
+  background: url('/public/assets/images/checked-radio.svg') no-repeat center center;
+  background-size: contain;
+}
+
+.left-btn__left {
+  background: transparent;
+  border: none;
+  padding: 1.8rem 4rem;
+  background-color: var(--yellow-color);
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin-top: 6.5rem;
+  cursor: pointer;
+}
+
+.left-btn__left:hover {
+  background: var(--yellow-button-hover);
+}

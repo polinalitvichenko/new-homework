@@ -1,0 +1,30 @@
+@import './normalize.css';
+@import './veriables.css';
+@import './header.css';
+@import './head-container.css';
+@import './body-container.css';
+@import './foot-container.css';
+@import './footer.css';
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+
+@media screen and(max-width: 768px) {
+  html {
+    font-size: calc (100vw / 500px * 10);
+  }
+}
+
+@media screen and(max-width: 500px) {
+  html {
+    font-size: calc (100vw / 320px * 10);
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
